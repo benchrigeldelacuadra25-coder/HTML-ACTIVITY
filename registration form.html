@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tech Explorers Club Registration Form</title>
+</head>
+<body>
+
+<h2>Tech Explorers Club Registration Form</h2>
+
+<form>
+
+    <fieldset>
+        <legend><b>Personal Information</b></legend>
+
+        Full Name:<br>
+        <input type="text" name="fullname" placeholder="Enter your full name"><br><br>
+
+        Email Address:<br>
+        <input type="email" name="email" placeholder="example@gmail.com"><br><br>
+
+        Contact Number:<br>
+        <input type="text" name="contact" placeholder="09xxxxxxxxx"><br><br>
+
+        Gender:<br>
+        <input type="radio" name="gender" value="Male"> Male<br>
+        <input type="radio" name="gender" value="Female"> Female<br><br>
+
+        Course / Grade Level:<br>
+        <select name="grade">
+            <option selected>-- Select your level --</option>
+            <option>Grade 7</option>
+            <option>Grade 8</option>
+            <option>Grade 9</option>
+            <option>Grade 10</option>
+        </select>
+    </fieldset>
+
+    <br>
+
+    <fieldset>
+        <legend><b>Membership Information</b></legend>
+
+        Interests:<br>
+        <input type="checkbox" name="interest" value="Coding"> Coding<br>
+        <input type="checkbox" name="interest" value="Design"> Design<br>
+        <input type="checkbox" name="interest" value="Robotics"> Robotics<br><br>
+
+        Type of Member:<br>
+        <select name="membership">
+            <option>New Member</option>
+            <option>Returning Member</option>
+        </select><br><br>
+
+        Comments or Suggestions:<br>
+        <textarea name="comments" rows="4" cols="30" placeholder="Write your message here..."></textarea>
+    </fieldset>
+
+    <br>
+
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+
+</form>
+
+</body>
+</html>
