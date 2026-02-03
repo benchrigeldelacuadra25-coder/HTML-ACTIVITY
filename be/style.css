@@ -1,0 +1,101 @@
+/* --- BODY & BACKGROUND IMAGE --- */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("https://300mind.studio/blog/wp-content/uploads/2025/06/video-game-background-design.webp"); /* Replace with your image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #333;
+}
+
+/* --- HEADER --- */
+header {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* --- NAVIGATION MENU --- */
+nav {
+    background-color: rgba(0,0,0,0.6);
+    padding: 10px;
+    text-align: center;
+}
+
+nav a:link {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:visited {
+    color: #ddd;
+}
+
+nav a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+
+nav a:active {
+    color: orange;
+}
+
+/* --- MAIN CONTENT CONTAINER --- */
+.container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    max-width: 900px;
+}
+
+/* --- POSTS --- */
+.post {
+    margin-bottom: 20px;
+}
+
+.post img {
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+/* --- GALLERY --- */
+.gallery img {
+    width: 250px;
+    margin: 10px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+/* --- PROFILE IMAGE --- */
+.profile {
+    width: 200px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 20px auto;
+}
+
+/* --- SPAN HIGHLIGHT --- */
+span {
+    color: #e91e63;
+    font-weight: bold;
+}
+
+/* --- FOOTER --- */
+footer {
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
