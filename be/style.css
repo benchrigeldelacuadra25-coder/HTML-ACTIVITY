@@ -1,4 +1,4 @@
-/* --- BODY & BACKGROUND IMAGE --- */
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -10,7 +10,7 @@ body {
     color: #333;
 }
 
-/* --- HEADER --- */
+
 header {
     background-color: rgba(0, 0, 0, 0.6);
     color: white;
@@ -18,7 +18,7 @@ header {
     text-align: center;
 }
 
-/* --- NAVIGATION MENU --- */
+
 nav {
     background-color: rgba(0,0,0,0.6);
     padding: 10px;
@@ -44,7 +44,7 @@ nav a:active {
     color: orange;
 }
 
-/* --- MAIN CONTENT CONTAINER --- */
+
 .container {
     background-color: rgba(255, 255, 255, 0.9);
     padding: 20px;
@@ -53,7 +53,6 @@ nav a:active {
     max-width: 900px;
 }
 
-/* --- POSTS --- */
 .post {
     margin-bottom: 20px;
 }
@@ -66,7 +65,7 @@ nav a:active {
     border-radius: 10px;
 }
 
-/* --- GALLERY --- */
+
 .gallery img {
     width: 250px;
     margin: 10px;
@@ -78,24 +77,20 @@ nav a:active {
     transform: scale(1.05);
 }
 
-/* --- PROFILE IMAGE --- */
-.profile {
-    width: 200px;
-    border-radius: 50%;
-    display: block;
-    margin: 0 auto 20px auto;
-}
 
-/* --- SPAN HIGHLIGHT --- */
+
+
+
 span {
     color: #e91e63;
     font-weight: bold;
 }
 
-/* --- FOOTER --- */
+
 footer {
     background-color: rgba(0,0,0,0.6);
     color: white;
     text-align: center;
     padding: 10px;
 }
+
