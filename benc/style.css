@@ -1,0 +1,81 @@
+.animated-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://image.slidesdocs.com/responsive-images/background/a-3d-animated-image-of-a-blue-light-tunnel-powerpoint-background_e6ad715aae__960_540.jpg');
+    background-repeat: repeat-x;
+    background-size: cover;
+    z-index: -1;
+    animation: moveBackground 30s linear infinite;
+}
+
+
+@keyframes moveBackground {
+    0% { background-position: 0 0; }
+    100% { background-position: -2000px 0; } 
+}
+
+.logo-img {
+    height: 80px;       
+    width: 80px;        
+    border-radius: 50%; 
+    object-fit: cover;  
+    margin-right: 15px;
+    border: 2px solid #ffcc00; 
+}
+
+body {
+    font-family: Arial;
+    margin: 0;
+    text-align: center;
+}
+
+header {
+    background-color: rgba(44, 62, 80, 0.8);
+    color: white;
+    padding: 20px;
+}
+
+nav {
+    background-color: rgba(52, 73, 94, 0.8);
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+section {
+    padding: 30px;
+}
+
+.box {
+    background: rgba(255, 255, 255, 0.9); 
+    margin: 10px auto;
+    padding: 15px;
+    width: 70%;
+}
+
+footer {
+    background-color: rgba(44, 62, 80, 0.8);
+    color: white;
+    padding: 10px;
+}
+
+input, textarea {
+    width: 80%;
+    padding: 8px;
+    margin: 5px;
+}
+
+button {
+    padding: 8px 15px;
+}
